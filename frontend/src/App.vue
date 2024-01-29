@@ -1,22 +1,24 @@
 <template>
-      <h1 class="text-3xl font-bold underline">
-      Hello World
-    </h1>
+<div>
+  <div>
+    <SignUp></SignUp>
+  </div>
+</div>
 </template>
 <script>
-import HelloWorld from "./components/HelloWorld.vue"
+import SignUp from "./views/forms/SignUp.vue"
 export default {
   data() {
     return {
-      fronteEnd: null
+
     }
   },
   components:{
-    HelloWorld
+    SignUp
   }
 }
 </script>
-<style>
+<style scoped>
   h1 {
     color: red;
   }
